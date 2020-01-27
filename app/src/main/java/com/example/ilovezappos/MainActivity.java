@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
                 .setService(MyJob.class)
                 .setTag("CheckPrice")
                 .setRecurring(true)
-                .setTrigger(Trigger.executionWindow(0, 10))
+                .setTrigger(Trigger.executionWindow(60*60, 60*60+60))
                 .build();
         return job;
     }

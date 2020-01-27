@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ILoveZappos</string>
+    <string name="amount">Amount</string>
+    <string name="bid">Bid</string>
+    <string name="aks">Ask</string>
+    <string name="refresh">Refresh</string>
+    <string name="orderBook"><![CDATA[Bids&Asks]]></string>
+    <string name="liveBook">Live Order Book</string>
+    <string name="Reminder">Notify me when price goes under</string>
+</resources>
